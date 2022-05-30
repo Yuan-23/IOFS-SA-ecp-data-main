@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="cluster_tool">
+    <meta name="author" content="YL.W.">
+    <title>{% block title %}IW-SRAHC{% endblock %}</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="{{ url_for('static', filename='js/pace.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pace-theme-default.min.css') }}">
+    <script src="{{ url_for('static', filename='js/toast.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/plotly.min.js') }}"></script>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.8/css/select2.min.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.8/js/select2.min.js"></script>
+
+    {#    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>#}
+    {#    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>#}
+
+
+    {% block css %}
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/toast.min.css') }}">
+        <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/spinner.css') }}">
+        <!---link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}"--->
+        <!--link href="{{ url_for('static', filename='css/offcanvas.css') }}" rel="stylesheet"--->
+        <link rel="stylesheet" href="https://v3.bootcss.com/examples/offcanvas/offcanvas.css">
+
+    {% endblock %}
+</head>
+
+<body>
+{% include "common/header.html" %}<!--引入网页的头部模板-->
+<div id="maskOfProgressImage" style="display:none;">
+    <div id="floatmodal">
+        <div class="card">
+            <div class="card-body">
+                <p>Now processing, please wait for a few minutes...</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                         aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        {% block content %}<!--自定义模板区域-->
+
+        {% endblock %}
+    </div><!--/row-->
+
+</div>
+{% include "common/footer.html" %}<!--引入网页的底部模板-->
+{% block js %}<!--js模块区域-->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--script src="{{ url_for('static', filename='js/jquery.js') }}"></script-->
+    <!-- Bootstrap core JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.18.1/dist/bootstrap-table.min.js"></script>
+    <!-- Bootstrap table plugin-->
+    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- Latest compiled and minified Locales -->
+
+    <!-- Bootstrap export -->
+
+    <script src="/static/js/utils.js"></script>
+
+    <script src="/static/js/tableExport.js"></script>
+
+    <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/extensions/export/bootstrap-table-export.min.js"></script>
+
+    <script src="https://unpkg.com/bootstrap-table@1.18.0/dist/locale/bootstrap-table-en-US.min.js"></script>
+    <!--script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script-->
+    <script src="{{ url_for('static', filename='js/offcanvas.js') }}"></script>
+{% endblock %}
+</body>
+</html>

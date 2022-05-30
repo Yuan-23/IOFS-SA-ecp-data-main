@@ -1,0 +1,147 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/index_subshow.js') }}"
+            language="JavaScript"></script>
+    <script src="{{ url_for('static', filename='js/xlsx.core.min.js') }}"></script>
+
+    <div class="container">
+        <h1>IOFS-SA</h1>
+        <p class="text-muted">an Interactive Online Feature Selection Tool for Survival Analysis</p>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Runtime ID" aria-label="Runtime ID" id="search_cont2"
+                   aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="search_contain2">Search</button>
+            </div>
+        </div>
+        <p class="text-muted">You can query your past results by Runtime ID</p>
+
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="/">
+                    Select data from local
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/online">
+                    Select data from TCGA
+                </a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content" style="padding-top:10px;border-left: solid 1px #ddd;border-right: solid 1px #ddd;
+padding:5px; border-bottom: solid 1px #ddd;">
+            <div class="tab-pane fade show active" id="tab1">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-header">
+                                Workspace
+                            </div>
+                            <div class="card-body" id="workspace">
+                                <div id="beginer">
+                                    <div class="card border-info mx-auto mb-3 shadow" style="max-width: 22rem;">
+                                        <div class="card-header">Info</div>
+                                        <div class="card-body text-info">
+                                            <h3>No data loaded.</h3>
+                                            <p>You should upload data first. Use toolkit panel on the right side.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="pending">
+                                    <div class="card border-primary mx-auto mb-3 shadow" style="max-width: 22rem;">
+                                        <div class="card-header">Info</div>
+                                        <div class="card-body text-primary">
+                                            <div class="d-flex">
+                                                <div class="spinner-border text-primary mr-2" role="status"></div>
+                                                <h3> Running now.</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="showout">
+                                    <div id="riskscore"></div>
+                                    <div id="lifespan"></div>
+                                    <div id="censoring"></div>
+                                    <div id="genexpress"></div>
+                                </div>
+                            </div>
+
+
+                            <div style="float: right">
+                                 <button class="btn btn-success btn-sm" id="Pconfirmin"
+                                        style="width: 70px; height: 33px; float: right">Confirm
+                                </button>
+
+                                <select class="selectpicker" id="selectPvaluein"
+                                        style="width: 140px; height: 33px; float: right">
+                                    <option value="0" style="color: darkgrey" disabled selected hidden>select p value
+                                    </option>
+                                    <option value="0.001" style="color: #67c23a">0.001</option>
+                                    <option value="0.005" style="color: #67c23a">0.005</option>
+                                    <option value="0.01" style="color: #67c23a">0.01</option>
+                                    <option value="0.05" style="color: #67c23a">0.05</option>
+                                    <option value="0.1" style="color: #67c23a">0.1</option>
+                                    <option value="0.5" style="color: #67c23a">0.5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header">
+                                Tool box
+                            </div>
+                            <div class="card-body">
+                                <p style="font-size:20px;" class="bg-warning text-center text-dark"><strong>Your Runtime
+                                    ID:
+                                    <br>
+                                    <a class="text-primary" id="uid">{{ uid }}</a>
+                                </strong></p>
+                                <label><strong>File input</strong></label>
+                                <p>
+                                    Firstly, you need to upload a target data set. For detailed information
+                                    on data format and acceptable data type, <a href="/help"> click here </a>to get
+                                    acknowledge.
+                                </p>
+
+                                <label for="indexloops">Training loops:</label>
+                                <input class="form-control" id="indexloops" type="number" placeholder="loops"/>
+                                <label for="indexnums">Feature numbers:</label>
+                                <input class="form-control" id="indexnums" type="number" placeholder="nums"/>
+
+                                <label for="file">select file:</label>
+                                <form onsubmit="return false">
+                                    <div class="input-group">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="fileinputbox"
+                                                   onchange="fileup(this)">
+
+                                            <label id="filelabel" class="custom-file-label" for="fileinputbox">Choose
+                                                file</label>
+                                        </div>
+                                    </div>
+                                    <div class="progress">
+                                        <div id="uploadbar" class="progress-bar progress-bar-striped bg-info"
+                                             role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                    <button id="submitfiles" class="btn btn-primary btn-sm" onclick="submitfile()">
+                                        Upload
+                                    </button>
+                                    <p id="refreshit" style="display:none;">To change the dataset, please <a
+                                            href="javascript:history.go(0)">refresh</a> the web page.</p>
+                                </form>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab2">
+            </div>
+        </div>
+    </div>
+{% endblock %}

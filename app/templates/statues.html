@@ -1,0 +1,27 @@
+{% extends "common/base.html" %}<!--继承基础模板-->
+{% block content %}<!--自定义模板区域-->
+<div class="container">
+    <h2>Server status</h2>
+    <div id="logtable"></div>
+    <table
+            id="table"
+            data-toggle="table"
+            data-url="/status/logs"
+            data-height="500"
+            data-side-pagination="server"
+            data-pagination="true"
+            data-page-size="25">
+        <thead>
+        <tr>
+            <th data-field="uid">Runtime ID</th>
+            <th data-field="input">Input type</th>
+            <th data-field="time">Submit time(UTC+0)</th>
+            <th data-field="status">Status</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+<script>
+
+</script>
+{% endblock %}

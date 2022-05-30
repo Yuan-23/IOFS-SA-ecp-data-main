@@ -1,0 +1,9 @@
+data filter=lfs diff=lfs merge=lfs -text
+LUSC.csv filter=lfs diff=lfs merge=lfs -text
+SKCM.csv filter=lfs diff=lfs merge=lfs -text
+THCA.csv filter=lfs diff=lfs merge=lfs -text
+BLCA.csv filter=lfs diff=lfs merge=lfs -text
+HNSC.csv filter=lfs diff=lfs merge=lfs -text
+STAD.csv filter=lfs diff=lfs merge=lfs -text
+STES.csv filter=lfs diff=lfs merge=lfs -text
+COADREAD.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4c5b322-9efa-4d1b-8dac-6bf4c0486fb2" name="Default Changelist" comment="nodata">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="9dfa548a-b18d-4005-923c-4c6a5c799d0a" name="-data" comment="-data" />
+    <list id="87d7a0f1-8018-49f3-b3a8-6dffa8c14c2d" name="3" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2054eFtJY7ql0HTdQyOpv1HS8hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject/Hierarchical" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="D:\APP\pycharm\PyCharm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\iwsrahc-main\app\templates" />
+      <recent name="D:\iwsrahc-main\app\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.iwsrahc-main">
+    <configuration name="Regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/CoreModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/CoreModules/Regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cluster22" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/CoreModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/CoreModules/cluster22.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw_important_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/CoreModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/CoreModules/draw_important_picture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="emailtest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/CoreModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/CoreModules/emailtest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iwsrahc-main" type="PythonConfigurationType" factoryName="Python">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\iwsrahc-main\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iwsrahc-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/CoreModules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/CoreModules/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.iwsrahc-main" />
+      <item itemvalue="Python.cluster22" />
+      <item itemvalue="Python.Regression" />
+      <item itemvalue="Python.draw_important_picture" />
+      <item itemvalue="Python.emailtest" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.draw_important_picture" />
+        <item itemvalue="Python.Regression" />
+        <item itemvalue="Python.emailtest" />
+        <item itemvalue="Python.cluster22" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4c5b322-9efa-4d1b-8dac-6bf4c0486fb2" name="Default Changelist" comment="" />
+      <changelist id="87d7a0f1-8018-49f3-b3a8-6dffa8c14c2d" name="3" comment="" />
+      <changelist id="9dfa548a-b18d-4005-923c-4c6a5c799d0a" name="-data" comment="" />
+      <created>1635321214633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635321214633</updated>
+      <workItem from="1635321222707" duration="6670000" />
+      <workItem from="1635474238575" duration="1925000" />
+      <workItem from="1635646325316" duration="30000" />
+      <workItem from="1636336261058" duration="1363000" />
+      <workItem from="1636678862790" duration="8116000" />
+      <workItem from="1636850986379" duration="4829000" />
+      <workItem from="1636896242033" duration="65000" />
+      <workItem from="1636938311103" duration="7493000" />
+      <workItem from="1637226885281" duration="1229000" />
+      <workItem from="1637282557098" duration="14634000" />
+      <workItem from="1637457790974" duration="15104000" />
+      <workItem from="1637543233337" duration="624000" />
+      <workItem from="1637639937488" duration="5527000" />
+      <workItem from="1637718959548" duration="2731000" />
+      <workItem from="1637802762096" duration="8616000" />
+      <workItem from="1638145800771" duration="11368000" />
+      <workItem from="1638239466667" duration="31134000" />
+      <workItem from="1638428110708" duration="38838000" />
+      <workItem from="1638598951112" duration="1628000" />
+      <workItem from="1638753860990" duration="7468000" />
+      <workItem from="1638838409271" duration="65866000" />
+      <workItem from="1639398601165" duration="20061000" />
+      <workItem from="1639619387877" duration="46405000" />
+      <workItem from="1639832760435" duration="14165000" />
+      <workItem from="1639965975283" duration="29907000" />
+      <workItem from="1640144474091" duration="4463000" />
+      <workItem from="1640235186337" duration="1617000" />
+      <workItem from="1640310208064" duration="22000" />
+      <workItem from="1640315009176" duration="32415000" />
+      <workItem from="1640591447392" duration="5176000" />
+      <workItem from="1640662515491" duration="7455000" />
+      <workItem from="1641382241642" duration="11796000" />
+      <workItem from="1646217640476" duration="4065000" />
+      <workItem from="1646276932882" duration="7196000" />
+      <workItem from="1646637551433" duration="2923000" />
+      <workItem from="1646875333815" duration="3718000" />
+      <workItem from="1647223679405" duration="13522000" />
+      <workItem from="1647313020637" duration="3679000" />
+      <workItem from="1647912430700" duration="20610000" />
+      <workItem from="1648260516614" duration="8628000" />
+      <workItem from="1648558082836" duration="20729000" />
+      <workItem from="1649038530631" duration="6992000" />
+      <workItem from="1649408640654" duration="1046000" />
+      <workItem from="1649411624449" duration="3255000" />
+      <workItem from="1649419231470" duration="28017000" />
+      <workItem from="1649901144533" duration="1097000" />
+      <workItem from="1649902664034" duration="8563000" />
+      <workItem from="1650106716781" duration="1227000" />
+      <workItem from="1650172733012" duration="4257000" />
+      <workItem from="1650248047719" duration="17746000" />
+      <workItem from="1650709664256" duration="2791000" />
+      <workItem from="1650790954582" duration="1452000" />
+      <workItem from="1650850747771" duration="45212000" />
+      <workItem from="1651836382950" duration="10069000" />
+      <workItem from="1651997129249" duration="624000" />
+      <workItem from="1651997895101" duration="400000" />
+      <workItem from="1651998375197" duration="31622000" />
+      <workItem from="1652170414353" duration="12031000" />
+      <workItem from="1652234853247" duration="15813000" />
+      <workItem from="1652338479369" duration="24158000" />
+      <workItem from="1652842280622" duration="975000" />
+      <workItem from="1653476805019" duration="5256000" />
+      <workItem from="1653532801275" duration="1258000" />
+      <workItem from="1653535039693" duration="2425000" />
+      <workItem from="1653611661585" duration="8867000" />
+      <workItem from="1653806802728" duration="2518000" />
+      <workItem from="1653880446634" duration="120000" />
+      <workItem from="1653880587597" duration="1926000" />
+      <workItem from="1653882819302" duration="12030000" />
+      <workItem from="1653897411323" duration="6508000" />
+    </task>
+    <task id="LOCAL-00001" summary="code">
+      <created>1653881385355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653881385355</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code">
+      <created>1653884566329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653884566329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3">
+      <created>1653892644742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653892644742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-data">
+      <created>1653892736515</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653892736515</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code" />
+    <MESSAGE value="3" />
+    <MESSAGE value="-data" />
+    <MESSAGE value="nodata" />
+    <option name="LAST_COMMIT_MESSAGE" value="nodata" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iwsrahc_main$iwsrahc_main.coverage" NAME="iwsrahc-main Coverage Results" MODIFIED="1653897229523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$test.coverage" NAME="test Coverage Results" MODIFIED="1649412165042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$emailtest.coverage" NAME="emailtest Coverage Results" MODIFIED="1640087542158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$cluster.coverage" NAME="cluster Coverage Results" MODIFIED="1637480237485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$draw_important_picture.coverage" NAME="draw_important_picture Coverage Results" MODIFIED="1649412153674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$cluster22.coverage" NAME="cluster22 Coverage Results" MODIFIED="1640084917845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$Regression.coverage" NAME="Regression Coverage Results" MODIFIED="1647937392589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
+  </component>
+</project>
