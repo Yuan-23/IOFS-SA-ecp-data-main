@@ -2,10 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c5b322-9efa-4d1b-8dac-6bf4c0486fb2" name="Default Changelist" comment="nodata">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CoreModules/Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/CoreModules/Regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CoreModules/cluster22.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/CoreModules/cluster22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/images/manual.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/manual.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/online_subshow.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/online_subshow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/toast.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/toast.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/common/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/common/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/common/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <list id="9dfa548a-b18d-4005-923c-4c6a5c799d0a" name="-data" comment="-data" />
     <list id="87d7a0f1-8018-49f3-b3a8-6dffa8c14c2d" name="3" comment="" />
+    <list id="faa06ffb-b754-4e23-977e-c97a8c937015" name="codedata" comment="">
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/ACC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/BLCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/BRCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/CESC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/CHOL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/COAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/COADREAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/DLBC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/ESCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/GBM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/GBMLGG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/HNSC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/LUSC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/MESO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/OV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/PAAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/PCPG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/READ.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/SARC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/SKCM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/STAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/STES.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/THCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/UCEC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/UCS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/mRNA/UVM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/222GBM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/ACC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/BLCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/BRCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/CESC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/CHOL.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/COAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/COADREAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/DLBC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/ESCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/FPPP.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/GBM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/GBMLGG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/HNSC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/LUSC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/MESO.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/OV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/PAAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/PCPG.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/READ.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/SARC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/SKCM.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/STAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/STES.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/THCA.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/UCEC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/UCS.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/data/microRNA/UVM.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,12 +123,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonProject/Hierarchical" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="ts.external.directory.path" value="D:\APP\pycharm\PyCharm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -228,6 +295,7 @@
       <changelist id="e4c5b322-9efa-4d1b-8dac-6bf4c0486fb2" name="Default Changelist" comment="" />
       <changelist id="87d7a0f1-8018-49f3-b3a8-6dffa8c14c2d" name="3" comment="" />
       <changelist id="9dfa548a-b18d-4005-923c-4c6a5c799d0a" name="-data" comment="" />
+      <changelist id="faa06ffb-b754-4e23-977e-c97a8c937015" name="codedata" comment="" />
       <created>1635321214633</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -301,7 +369,19 @@
       <workItem from="1653880446634" duration="120000" />
       <workItem from="1653880587597" duration="1926000" />
       <workItem from="1653882819302" duration="12030000" />
-      <workItem from="1653897411323" duration="6508000" />
+      <workItem from="1653897411323" duration="8223000" />
+      <workItem from="1653984879871" duration="637000" />
+      <workItem from="1654778969557" duration="2234000" />
+      <workItem from="1654844052657" duration="5562000" />
+      <workItem from="1655105407767" duration="4878000" />
+      <workItem from="1655114072375" duration="1441000" />
+      <workItem from="1655120513999" duration="1404000" />
+      <workItem from="1655178863525" duration="730000" />
+      <workItem from="1655183068691" duration="656000" />
+      <workItem from="1655194276039" duration="2001000" />
+      <workItem from="1655198702734" duration="146000" />
+      <workItem from="1655199648390" duration="24042000" />
+      <workItem from="1655346013469" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="code">
       <created>1653881385355</created>
@@ -379,7 +459,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="nodata" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/iwsrahc_main$iwsrahc_main.coverage" NAME="iwsrahc-main Coverage Results" MODIFIED="1653897229523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iwsrahc_main$iwsrahc_main.coverage" NAME="iwsrahc-main Coverage Results" MODIFIED="1655348056034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iwsrahc_main$test.coverage" NAME="test Coverage Results" MODIFIED="1649412165042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
     <SUITE FILE_PATH="coverage/iwsrahc_main$emailtest.coverage" NAME="emailtest Coverage Results" MODIFIED="1640087542158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />
     <SUITE FILE_PATH="coverage/iwsrahc_main$cluster.coverage" NAME="cluster Coverage Results" MODIFIED="1637480237485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/CoreModules" />

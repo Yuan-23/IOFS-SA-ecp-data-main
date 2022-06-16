@@ -98,8 +98,6 @@ def train_and_trainscore(X, duration_col, event_col):
 def extract_feature_for_acc(X, y, n_features, times, save_dir):
     print('I am in extract_feature_for_acc')
     # get n features from X randomly except 'Survival stata/day'
-
-
     feature_index = range(2, X.shape[1])  # 2: 'Survival stata' and 'Survival day'
     vimps_ans = Vimps(X.shape[1], save_dir)
 

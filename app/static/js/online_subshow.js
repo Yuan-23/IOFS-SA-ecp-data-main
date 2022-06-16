@@ -1,7 +1,7 @@
 /**
  * This Javascript is modified based on the original
  * index_subshow.js specially for dataset choice
- * cascade selector and pending pipeline for time-
+ * cascade select or and pending pipeline for time-
  * spending tasks.
  * Author: Yl.W. 2021, @NZH-Hulunbuir
  */
@@ -10,7 +10,9 @@
 //     return confirm("Are you sure you want to close this tab?");
 // }
 // This tip-before-close may not working well because this is not a
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">< /script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../dist/toast.min.js"></script>
 
 var all_data = [];
 
@@ -28,6 +30,8 @@ $(document).ready(function () {
         cancertypeInit(data);
         all_data = data;
     })
+
+
     $.toastDefaults = {
         position: 'top-center',
         /** top-left/top-right/top-center/bottom-left/bottom-right/bottom-center - Where the toast will show up **/
@@ -176,8 +180,8 @@ $(document).ready(function () {
 
 function searchcontent(data) {
     let datasearch = new FormData();
-    datasearch.append("nums", data.nums);
-    datasearch.append("loops", data.loops);
+    datasearch.append("nums", Number(data.nums));
+    datasearch.append("loops", Number(data.loops));
     datasearch.append("runtime", data.uid);
     datasearch.append("cancer", data.text);
     datasearch.append("material", data.type);
@@ -199,7 +203,7 @@ function searchcontent(data) {
             if (result.data.name == "running") {//特征选择没有完成
                 $("#maskOfProgressImage").hide();
                 $.toast({
-                    type: 'running',
+                    type: 'warning',
                     title: 'Feature selection is running!',
                     content: 'Feature selection is being performed.Please try again later!',
                     delay: 5000
@@ -502,6 +506,7 @@ function getconform(selictlist, texts, types) {
         // $('#conFirm').attr("disabled", "disabled");
         $.toast({
             type: 'info',
+            color: 'green',
             title: 'Clustering now!',
             content: 'This procedure may cost up to 30 seconds. You may have to wait for a short while.',
             delay: 5000

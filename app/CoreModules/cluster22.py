@@ -55,7 +55,8 @@ def classify_firstly(n_features, loops, uid, **kwargs):
     # 每次抽 n_features 个特征,  如 n_features = 2
     selectedlists = {}
     WORK_PATH = r'D:\iwsrahc-main'
-    # Data_Path = r'D:\iwsrahc-main\app\data\microRNA\GBM.csv'
+    # WORK_PATH = r'/home/yyhe/iwsrahc-main'
+    Data_Path = r'D:\iwsrahc-main\app\data\microRNA\GBM.csv'
     config_dict = {"loops": loops, "n_features": n_features}
 
     if len(kwargs) == 0:
@@ -144,6 +145,7 @@ def some_long_task2(uid, data_train, y, n_features, loops, vimps_save_dir):
             jobs.append(pool.submit(extract_feature_for_acc, data_train, y, n_features, loops, vimps_save_dir))
     print(len(jobs))
     asyncio.run(intodb3(uid))
+    sleep(1)
     print("Task #2 is done!")
 
 
@@ -282,7 +284,7 @@ def getfromdb(RuntimeID):
                 getdoc = {'uid': RuntimeID, 'text': x["input"], 'type': x["type"],
                           'loops': x["params"]["loops"], 'nums': x["params"]["n_features"],
                           'status': "Done", 'belong': "2"}
-            print(getdoc)
+            print("数据库情况",getdoc)
 
     return json.dumps(getdoc, cls=MyEncoder)
 
@@ -302,10 +304,11 @@ async def intodb(uid: str, text: str, type: str, params: dict) -> None:
         "uid": uid,
         "input": text,
         "type": type,
-        "time": time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(time.time())),
+        "time": time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime(time.time())),#
         "params": params,
         "status": "Running"
     }
+    print("数据库插入",mylog.values())
     mycol.insert_one(mylog)
 
 
@@ -354,3 +357,4 @@ async def intodb3(uid: str) -> None:
 # # clusterpack(selected_list, uid)  # n_features, loops, uid, **kwargs
 #
 # classify_firstly(n_features, loops, uid)
+

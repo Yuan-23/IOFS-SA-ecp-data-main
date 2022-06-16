@@ -1,5 +1,5 @@
-# IW-SRAHC
->an Interactive Web-tool for Survival Risk Analysis based on Hierarchical Clustering
+# IOFS-SA
+>an Interactive Online Feature Selection Tool for Survival Analysis
 
 ## How to run the web server
 
@@ -11,10 +11,10 @@ Make sure you have Python3 installed. The minimum version of Python is Python 3.
 python3 --version
 ```
 
-Then download the source code of IW-SRAHC from GitHub. Choose a directory where you wish to run the server, and clone source code by using this command:
+Then download the source code of IOFS-SA from GitHub. Choose a directory where you wish to run the server, and clone source code by using this command:
 
 ```shell
-git clone https://github.com/wylapp/iwsrahc
+git clone https://github.com/Yuan-23/IOFS-SA-ecp-data-main
 ```
 
 and change into the directory `iwsrahc`
